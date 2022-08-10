@@ -1,0 +1,660 @@
+\appendix
+\renewcommand{\thetable}{SI\arabic{table}}%
+
+\chapter{Supporting Information}
+
+\section{Supporting tables}
+
+{\small{
+\begin{tcolorbox}[tab2,tabularx={X||Y|Y|Y},title=Energy for systems at different outputs hartree units ,boxrule=0.5pt]
+Cluster    & MP2                & DFT (M06-2X)       & Promelf (M06-2X) \\\hline\hline
+dimer      & -152.539151959111  & -152.868036441310  & -152.13643137    \\
+trimer     & -228.827663306177  & -229.316617892800  & -225.51627000    \\
+tetramer   & -305.359223571261  & -305.763780855504  & -304.27701150    \\
+pentamer c & -381.398610398789  & -382.208963954852  & -374.26565610    \\ 
+pentamer p & -381.400573846193  & -382.210068626837  & -380.34641670
+\label{mp2vsm062x_table}
+\end{tcolorbox}
+
+\begin{tcolorbox}[tab2,tabularx={X||Y|Y|Y|Y|Y},title=Energy for the system at wB97XD DSD and M06D3 functionals Hartree unit ,boxrule=0.5pt]
+Cluster    & wB97XD      & DSD         & M06D3       & average    & $\sigma$   \\\hline\hline
+pentamer p & -382.256096 & -381.796990 & -382.171231 & -382.07477 & 0.24428056 \\
+monomer    & -76.439928  & -76.348356  & -76.422501  & -76.403595 & 0.04862536 \\
+dimer      & -152.887534 & -152.704601 & -152.852667 & -152.81493 & 0.09712828 \\
+trimer     & -229.344559 & -229.069851 & -229.293213 & -229.23587 & 0.14605474 \\
+tetramer   & -305.802591 & -305.436006 & -305.732757 & -305.65712 & 0.19464603 \\
+pentamer c & -382.257905 & -381.799987 & -382.169303 & -382.07573 & 0.24287605
+\label{energies_table}%
+\end{tcolorbox}
+
+\begin{tcolorbox}[tab2,tabularx={X||Y|Y},title=Distance average between O atoms in optimized systems Å unit ,boxrule=0.5pt]
+  Bond            & Average & $\sigma$\\\hline\hline
+  Dimer           & 2.9032 & 0.0052 \\
+  Trimer (HB 1)   & 2.7875 & 0.0023 \\
+  Trimer (HB 2)   & 2.7965 & 0.0056 \\
+  Trimer (HB 3)   & 2.7889 & 0.0024 \\
+  Tetramer (HB 1) & 2.7450 & 0.0101 \\
+  Tetramer (HB 2) & 2.7423 & 0.0102 \\
+  Tetramer (HB 3) & 2.7423 & 0.0055 \\
+  Tetramer (HB 4) & 2.7424 & 0.0101
+  \label{distances_table}%
+\end{tcolorbox}
+
+}}
+\newpage
+\thispagestyle{empty}
+
+\section{Scripts}\label{SIscript}
+
+All scripts written while we was working on this thesis are upload in a private
+GitHub repository
+(\href{https://github.com/vcastor/TFMscripts}{github.com/vcastor/TFMscripts}).
+The code that not has an execution of {\sc{Promelf}} or use the LCT queue
+system is written down below.
+
+Script to write a new wavefunction with the ELF maxima as atoms with charge
+zero for the nuclei:
+
+\begin{lstlisting}[language=Python]
+#!/opt/homebrew/bin/python3
+# write a new wfn file with the coordiantes from a xyz in Atomic Units
+import sys 
+
+xyz = sys.argv[1]
+oldwfn = sys.argv[2]
+newwfn = sys.argv[3]
+
+a = []
+x = []
+y = []
+z = []
+
+archivo = open(xyz, 'r')
+datacoor = archivo.readlines()
+n = datacoor[0]
+n = int(n)
+
+for i in range(n):
+	linen = datacoor[i+2]
+	linen = linen.split()
+	a.append(str(linen[0]))
+	x.append(float(linen[1]))
+	y.append(float(linen[2]))
+	z.append(float(linen[3]))
+archivo.close()
+
+archivo = open(oldwfn, 'r')
+dataold = archivo.readlines()
+header = dataold[1]
+header = header.split()
+m = header[6]
+m = int(m)
+
+with open(newwfn, 'w') as f:
+	sys.stdout = f 
+	print(dataold[0], end='')
+	print(header[0], '{:>14}'.format(header[1]), *header[2:4], '{:>6}'.format(header[4]), header[5], '{:>8}'.format(m+n), header[7])
+	for i in range(m):
+		print(dataold[i+2], end='')
+	for i in range(n):
+		print(' ', a[i], ' ', '{:2d}'.format(m+i+1),'   (CENTRE', '{:2d}{}'.format(m+i+1,') '), f'{x[i]:+.8f}', f'{y[i]:+.8f}', f'{z[i]:+.8f}', ' CHARGE =  0.0')
+	for i in range(len(dataold)-m-2):
+		print(dataold[i+m+2], end='')
+\end{lstlisting}
+
+Where the first argument of the last script is the output of:
+
+\begin{lstlisting}[language=Python]
+#!/opt/homebrew/bin/python3
+import sys
+
+coor = sys.argv[1]
+xyz = sys.argv[2]
+
+a = []
+x = []
+y = []
+z = []
+
+archivo = open(coor, 'r')
+data = archivo.readlines()
+n = data[0]
+n = int(n)
+
+for i in range(n):
+	linen = data[i+1]
+	linen = linen.split()
+	a.append(str(linen[2]))
+	if (a[i] == "(3,-3)"):
+		x.append(float(linen[3]))
+		y.append(float(linen[4]))
+		z.append(float(linen[5]))
+archivo.close()
+
+with open(xyz, 'w') as f:
+	sys.stdout = f
+	print(len(y),'bohr\n')
+	maxELF = True
+	i = 0
+	while (maxELF):
+		if (a[i] == "(3,-3)"):#the xyz file WILL BE IN bohr not angstrom
+			print('X', x[i], y[i], z[i])
+			i+=1
+		else:
+			maxELF = False
+\end{lstlisting}
+
+The value integrals given by {\sc{Promelf}} were summarized in a smaller
+file with the following script:
+
+\begin{lstlisting}[language=perl]
+#!/usr/bin/perl5.18 -w
+#use strict;
+#use warnings;
+
+$outpromelf = $ARGV[0];
+$integralsv = $ARGV[1];
+
+my $line=`grep -ne "RELEVANT RESULTS FOR ALL THE ATOMS WITH LMAX = 10" $outpromelf | cut -f1 -d:`;
+my $lineInicio=$line + 3;
+my @line2=`grep -ne "------------------------------- TES PARTITION ---------------------------------" $outpromelf | cut -f1 -d:`;
+my $lineEnd=$line2[1] - 3;
+my $d='$d';
+system(`sed '1,${lineInicio}d;${lineEnd},$d' $outpromelf > tmp.1`);
+
+my $nmax=`wc -l < tmp.1`;
+$nmax=$nmax + 0;
+system(`echo $nmax > $integralsv`);
+system(`cat tmp.1 >> $integralsv`);
+system(`rm tmp.1`)
+\end{lstlisting}
+
+And the interactions also given by {\sc{Promelf}} with the next one:
+
+\begin{lstlisting}[language=Python]
+#!/opt/homebrew/bin/python3
+#run as:
+#./interactions.py *.put *.txt
+
+import sys
+import os
+import numpy as np
+
+pout  = sys.argv[1]
+atoms = sys.argv[2]
+
+couint     = []
+xcint      = []
+kinetic1   = []
+kinetic2   = []
+potential1 = []
+potential2 = []
+cou1       = []
+cou2       = []
+xc1        = []
+xc2        = []
+max1       = []
+max2       = []
+DI1        = []
+DI2        = []
+
+#################################
+# How many interactions between ELF max's or nuclei
+cmdcat = "cat " + str(atoms) +  " | sed '/^\\s*\$/d' | wc -l"
+n = os.popen(cmdcat).read() 
+n = int(n)
+
+archivo2 = open(atoms, 'r')
+dataAtoms = archivo2.readlines()
+for i in range(n):
+	linen = dataAtoms[i]
+	linen = linen.split()
+	max1.append(int(linen[0]))
+	max2.append(int(linen[1]))
+archivo2.close()
+
+#################################
+# Contributions of Max1 et Max2
+cmdgrep = "grep -ne 'Atomic Contributions for neq: ' "+ str(pout) +" | cut -f1 -d:"
+outgrep = os.popen(cmdgrep).read()
+outgrep = outgrep.split()
+
+archivo1 = open(pout, 'r')
+data = archivo1.readlines()
+for i in range(n):                               #for max1
+	dataT  = data[int(outgrep[max1[i]-1])+2] #kinetic
+	dataV  = data[int(outgrep[max1[i]-1])+3] #potential
+	dataC  = data[int(outgrep[max1[i]-1])+5] #Cou
+	dataXC = data[int(outgrep[max1[i]-1])+6] #XC
+	dataT  = dataT.split()
+	dataV  = dataV.split()
+	dataC  = dataC.split()
+	dataXC = dataXC.split()
+	kinetic1.append(float(dataT[3]))
+	potential1.append(float(dataV[3]))
+	cou1.append(float(dataC[2]))
+	xc1.append(float(dataXC[2]))
+	#                                        #for max2
+	dataT  = data[int(outgrep[max2[i]-1])+2] #kinetic
+	dataV  = data[int(outgrep[max2[i]-1])+3] #potential
+	dataC  = data[int(outgrep[max2[i]-1])+5] #Cou
+	dataXC = data[int(outgrep[max2[i]-1])+6] #XC
+	dataT  = dataT.split()
+	dataV  = dataV.split()
+	dataC  = dataC.split()
+	dataXC = dataXC.split()
+	kinetic2.append(float(dataT[3]))
+	potential2.append(float(dataV[3]))
+	cou2.append(float(dataC[2]))
+	xc2.append(float(dataXC[2]))
+archivo1.close()
+
+#################################
+#Interaction between Max1 et Max2
+
+cmdgrep = "grep -ne '===================  Interaction with atom:' "+ str(pout) +" | cut -f1 -d:"
+outgrep = os.popen(cmdgrep).read()
+outgrep = outgrep.split()
+
+#x^2 -x -len(outgrep) = 0; 1+sqrt(1+4*len)/2
+natoms = (1+np.sqrt(1+ 4*len(outgrep)))/2
+natoms = int(natoms)
+
+for i in range(n):
+	if (max1[i] > max2[i]):
+		a = outgrep[(max1[i]-1)*(natoms-1) + max2[i] - 1]
+	else:
+		a = outgrep[(max1[i]-1)*(natoms-1) + max2[i] - 2]
+	a = int(a) + 1
+	line = data[a]
+	line = line.split()
+	couint.append(line[4])
+	xcint.append(line[5])
+
+cmdcat = "cat " + pout +  " | sed '/^\\s*\$/d' | wc -l"
+m = os.popen(cmdcat).read()
+m = int(m)
+m = m - natoms - 34
+
+for i in range(n):
+	dataDI1 = data[int(m+max1[i])-1]
+	dataDI2 = data[int(m+max2[i])-1]
+	dataDI1 = dataDI1.split()
+	dataDI2 = dataDI2.split()
+	DI1.append(float(dataDI1[6]))
+	DI2.append(float(dataDI2[6]))
+
+for i in range(n):
+  print(couint[i], xcint[i], cou1[i], xc1[i], kinetic1[i], potential1[i], DI1[i], cou2[i], xc2[i], kinetic2[i], potential2[i], DI2[i])
+\end{lstlisting}
+
+A wrapper was also written to run TopMod or NCI with the same input file.
+
+\begin{lstlisting}[language=Python]
+#!/opt/homebrew/bin/python3
+#This wrapper launch TopMod and/or NCI with the same input
+#I was written with a bash script lol
+
+import sys
+import os
+from tqdm import tqdm
+
+filein = sys.argv[1]
+archivo = open(filein, 'r')
+datalines = archivo.readlines()
+cmdtop = "/Users/vcastor/Documents/Master_UAM/TFM/scripts/wrapper/topmod.exe "
+cmdnci = "/Users/vcastor/Documents/Master_UAM/TFM/nci/nciplot-master/src_nciplot_4.0/nciplot "
+cmdstc = "sbf_to_cube "
+gridoption = ["fine\n", "ultrafine\n"]
+
+# definimos los definible
+def moving(cube):
+        cubein = cube.replace(".wfn\n", "_elf.cube")
+        cubeout = cube.replace(".wfn\n", "-elf.cube")
+        cmd = "mv " + cubein + " " + cubeout
+        os.system(cmd)
+        cubein = cube.replace(".wfn\n", "_esyn.cube")
+        cubeout = cube.replace(".wfn\n", "-esyn.cube")
+        cmd = "mv " + cubein + " " + cubeout
+        os.system(cmd)
+
+def writetmp(inpf, wfn, inp):
+        with open (inpf, 'w') as f:
+                f.write(wfn)
+                f.write(inp+"\n")
+                f.write("1 1 1")
+
+def stc(wfn):
+        sbf = wfn.replace(".wfn\n", "_elf.sbf")
+        esyn = wfn.replace(".wfn\n", "_esyn.sbf")
+        inpsbf = wfn.replace(".wfn\n", ".tmp1")
+        inpsyn = wfn.replace(".wfn\n", ".tmp2")
+        outf = wfn.replace(".wfn\n", "-stc.out")
+        writetmp(inpsbf, wfn, sbf)
+        cmd = cmdstc + "< " + inpsbf + " >> " + outf
+        os.system(cmd)
+        writetmp(inpsyn, wfn, esyn)
+        cmd = cmdstc + "< " + inpsyn + " >> " + outf
+        os.system(cmd)
+        moving(wfn)
+
+def elf(wfn, gridtop):
+        outf = wfn.replace(".wfn\n", "_topmodelf.out")
+        wfntop = wfn.replace(".wfn\n", ".wfn ")
+        cmd = cmdtop + wfntop + str(gridtop) + " &> " + outf
+        os.system(cmd)
+        stc(wfn)
+
+def nci(wfnorxyz, gridnci):
+        inpnci = wfnorxyz.replace(".wfn\n", ".nci")
+        outf = wfnorxyz.replace(".wfn\n", "-nciplot.out")
+        with open (inpnci, 'w') as f:
+                f.write("1\n")
+                f.write(wfnorxyz)
+                f.write(gridnci)
+        cmd = cmdnci + inpnci + " >> " + outf
+        os.system(cmd)
+
+def both(wfnorxyz, gridtop, gridnci):
+        elf(wfnorxyz, gridtop)
+        nci(wfnorxyz, gridnci)
+
+def coffee(array):
+        if len(array) > 5:
+                c = "I'll take time, you can go for beer"
+                c = '{:*^72}'.format(c)
+                print(c)
+        elif len(array) > 2:
+                c = "I'll take time, you can go for coffee"
+                c = '{:*^72}'.format(c)
+                print(c)
+
+#  Cute header
+b = "holi, I hope I'll be useful"
+b = '{:*^72}'.format(b)
+a = '{:=^72}'.format('=')
+print(a)
+print(b)
+#print(b) ABBA
+print(a)
+
+# Grid option, optional
+gridtop = '7'        #defoult value 
+gridnci = ''         #defoult value 
+if (datalines[-1].lower() in gridoption):
+        if datalines[-1].lower() == gridoption[0] : gridtop = '8'
+        if datalines[-1].lower() == gridoption[1] : gridtop = '9'
+        if datalines[-1].lower() == gridoption[0] : gridnci = datalines[-1].upper()
+        if datalines[-1].lower() == gridoption[1] : gridnci = datalines[-1].upper()
+        datalines = datalines[:-1]
+
+#-----------------
+# What will we do?
+if (datalines[-2].lower() in {'elf\n', 'nci\n'}):            #launch both
+        datalines = datalines[:-2]
+        coffee(datalines)
+        with tqdm(total=100) as pbar:
+                for i in range(len(datalines)):
+                        both(datalines[i], gridtop, gridnci)
+                        pbar.update(100/len(datalines))
+elif datalines[-1].lower() == 'elf\n':                       #launch ELF
+        datalines = datalines[:-1]
+        coffee(datalines)
+        with tqdm(total=100) as pbar:
+                for i in range(len(datalines)):
+                        elf(datalines[i], gridtop)
+                        pbar.update(100/len(datalines))
+elif datalines[-1].lower() == 'nci\n':                       #launch NCI
+        datalines = datalines[:-1]
+        with tqdm(total=100) as pbar:
+                for i in range(len(datalines)):
+                        nci(datalines[i], gridnci)
+                        pbar.update(100/len(datalines))
+
+# A cerrar el chiringuito 
+d = 'Bueno, ADIOS'
+d = '{:*^72}'.format(d)
+print(a)
+print(d)
+print(a)
+
+
+# Ahhhhh... delate temporal files
+cmd = "rm -f *-stc.out *nci *res *tmp1 *tmp2"
+os.system(cmd)
+\end{lstlisting}
+
+\newpage
+The wapper code can be written with a bash writer that install
+TopMod, NCI and even python3 if the computer does not have some of the software required.
+
+\begin{lstlisting}[language=bash]
+#!/bin/bash
+########################################################################
+# Bash wrapper writer. This code look around to know if your computer
+# has everything ok to the correct wapper use.
+#
+#                                                        Victoria Castor
+#                          Grupo de Investigación Julia Contreras-García
+#                             Paris, Ile de France, Republique Francaise
+########################################################################
+# Paperback Writer
+
+OS=`uname`                                      # macOS or Linux flavour
+
+# the wrapper was written for python3
+# do we have it?
+if ! ( command -v python3 &> /dev/null || command -v python &> /dev/null ); then
+  if [ "$OS" = 'Darwin' ]; then
+    if ! command -v brew &> /dev/null; then
+      curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+    fi
+    brew install python
+  else
+    sudo apt-get install python3.8
+  fi
+fi
+# Ok, we have it, but where?
+if command -v python3 &> /dev/null; then
+    interpreter=( $(type python3) )
+    firstline="#!${interpreter[2]}"
+    pip3 install tqdm &> /dev/null
+elif command -v python &> /dev/null; then
+    interpreter=( $(type python) )
+    firstline="#!${interpreter[2]}"
+    pip install tqdm &> /dev/null
+    echo "Be carfule with the python version that you're using"
+fi
+
+# One: don't pick up the phone
+touch wrapper.py
+echo $firstline > wrapper.py
+sed -n 2,11p raw_code.txt >> wrapper.py
+
+########################################################################
+# Is everything installed for proper wrapper operation?
+
+# TopMod
+if [[ ! -f "./topmod.exe" ]]; then
+  if ! command -v gfortran &> /dev/null; then
+    if [ "$OS" = 'Darwin' ]; then
+      if ! command -v brew &> /dev/null; then
+        curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+      fi
+      brew install gcc
+    else
+      sudo apt-get install gfortran
+    fi
+  fi
+  gfortran topmod.f90 -o topmod.exe
+else
+  if [ ! -x "./topmod.exe" ]; then chmod +x ./topmod; fi
+fi
+echo 'cmdtop = "'`pwd`'/topmod.exe "' >> wrapper.py
+
+# NCI plot
+if [[ ! -f "./nciplot" ]]; then
+  if ! command -v git &> /dev/null; then
+    if [ "$OS" = 'Darwin' ]; then
+      if ! command -v brew &> /dev/null; then
+        curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+      fi
+      brew install git
+    else
+      sudo apt-get install git
+    fi
+  else
+    git clone https://github.com/juliacontrerasgarcia/nciplot.git
+    ( cd ./nciplot/src_nciplot_4.0 ; make mrproper; make )
+    echo 'export NCIPLOT_HOME='`pwd`'/nciplot/' >> ~/.bash_profile
+    echo 'cmdnci = "'`pwd`'/nciplot/src_nciplot_4.0/nciplot "' >> wrapper.py
+  fi
+else
+  if [ ! -x "./nciplot" ]; then chmod +x ./nciplot; fi
+  echo 'cmdnci = "'`pwd`'/nciplot "' >> wrapper.py
+fi
+
+# sbf_to_cube
+if ! command -v sbf_to_cube &> /dev/null; then
+  curl -O https://www.lct.jussieu.fr/pagesperso/silvi/topmod09.tar
+  tar -xvf topmod09.tar
+  if [ "$OS" = 'Darwin' ]; then
+    ( cd ALL ; sed -i '' 's/ifort/gfortran/' 'Makefile' ; make all ; make install )
+  else
+    ( cd ALL ; sed -i 's/ifort/gfortran/' 'Makefile' ; make all ; make install )
+  fi
+fi
+echo 'cmdstc = "sbf_to_cube "' >> wrapper.py
+
+########################################################################
+# c'est fini (about prerequisites)
+sed -n '15,$p' raw_code.txt >> wrapper.py
+
+# don't forget give executable permissions
+chmod +x wrapper.py
+
+# et voila; danke schon!
+echo ""
+echo "Everthing done, examples given in the directory: examples"
+echo ""
+echo "            Grupo de investigación Julia Contreras-García"
+echo ""
+echo "Read the README.md file to know the wapper limits"
+echo ""
+echo "Run as:"
+echo "./wraper.py input1.inp"
+
+\end{lstlisting}
+
+\newpage
+
+\section{Geometries of water clusters}
+
+Water clusters coordinates in \SI{}{\angstrom}, xyz format:
+
+{\renewcommand{\baselinestretch}{.5}
+Set 1:
+\\
+{\scriptsize{
+\noindent \ce{(H_2O)_2} dimer
+\VerbatimInput{../clusters/set1/dimer.xyz}
+\noindent \ce{(H_2O)_3} trimer
+\VerbatimInput{../clusters/set1/trimer.xyz}
+\noindent \ce{(H_2O)_4} tetramer
+\VerbatimInput{../clusters/set1/tetramer.xyz}
+\noindent \ce{(H_2O)_5} pentamer c
+\VerbatimInput{../clusters/set1/pentamer_c.xyz}
+\noindent \ce{(H_2O)_5} pentamer p
+\VerbatimInput{../clusters/set1/pentamer_p.xyz}
+}}
+
+\newpage
+
+Set 2:
+\\
+{\scriptsize{
+\noindent \ce{(H_2O)_2} 1071
+\VerbatimInput{../clusters/eest/1071.xyz}
+\noindent \ce{(H_2O)_2} 2608
+\VerbatimInput{../clusters/eest/2608.xyz}
+\noindent \ce{(H_2O)_2} 2894
+\VerbatimInput{../clusters/eest/2894.xyz}
+\noindent \ce{(H_2O)_2} 3427
+\VerbatimInput{../clusters/eest/3427.xyz}
+\noindent \ce{(H_2O)_2} 3451
+\VerbatimInput{../clusters/eest/3451.xyz}
+\noindent \ce{(H_2O)_2} 469
+\VerbatimInput{../clusters/eest/469.xyz}
+\noindent \ce{(H_2O)_2} 5218
+\VerbatimInput{../clusters/eest/5218.xyz}
+\noindent \ce{(H_2O)_2} 5624
+\VerbatimInput{../clusters/eest/5624.xyz}
+\noindent \ce{(H_2O)_2} 6003
+\VerbatimInput{../clusters/eest/6003.xyz}
+\newpage
+\noindent \ce{(H_2O)_2} 6280
+\VerbatimInput{../clusters/eest/6280.xyz}
+\noindent \ce{(H_2O)_2} 7218
+\VerbatimInput{../clusters/eest/7218.xyz}
+\noindent \ce{(H_2O)_2} 7975
+\VerbatimInput{../clusters/eest/7975.xyz}
+\noindent \ce{(H_2O)_2} 8332
+\VerbatimInput{../clusters/eest/8332.xyz}
+\noindent \ce{(H_2O)_2} 8824
+\VerbatimInput{../clusters/eest/8824.xyz}
+}}
+Set 3:
+\\
+{\scriptsize{
+\noindent \ce{(H_2O)_2} 4170%Cs
+\VerbatimInput{../clusters/water_clusters/4179_water2Cs.xyz}
+\noindent \ce{(H_2O)_3} 4180%UUD
+\VerbatimInput{../clusters/water_clusters/4180_water3UUD.xyz}
+\noindent \ce{(H_2O)_3} 4181%UUU
+\VerbatimInput{../clusters/water_clusters/4181_water3UUU.xyz}
+\newpage
+\noindent \ce{(H_2O)_4} 4182%S4
+\VerbatimInput{../clusters/water_clusters/4182_water4S4.xyz}
+\noindent \ce{(H_2O)_4} 4183%Ci
+\VerbatimInput{../clusters/water_clusters/4183_water4Ci.xyz}
+\noindent \ce{(H_2O)_4} 4184%Py
+\VerbatimInput{../clusters/water_clusters/4184_water4Py.xyz}
+\noindent \ce{(H_2O)_5} 4185%CYC
+\VerbatimInput{../clusters/water_clusters/4185_water5CYC.xyz}
+\noindent \ce{(H_2O)_5} 4186%CAA
+\VerbatimInput{../clusters/water_clusters/4186_water5CAA.xyz}
+\noindent \ce{(H_2O)_5} 4187%CAB
+\VerbatimInput{../clusters/water_clusters/4187_water5CAB.xyz}
+\noindent \ce{(H_2O)_5} 4188%CAC
+\VerbatimInput{../clusters/water_clusters/4188_water5CAC.xyz}
+\noindent \ce{(H_2O)_5} 4189%FRA
+\VerbatimInput{../clusters/water_clusters/4189_water5FRA.xyz}
+\noindent \ce{(H_2O)_5} 4190%FRB
+\VerbatimInput{../clusters/water_clusters/4190_water5FRB.xyz}
+\noindent \ce{(H_2O)_5} 4191%FRC
+\VerbatimInput{../clusters/water_clusters/4191_water5FRC.xyz}
+\noindent \ce{(H_2O)_6} 4192%BAG
+\VerbatimInput{../clusters/water_clusters/4192_water6BAG.xyz}
+\newpage
+\noindent \ce{(H_2O)_6} 4193%BK1
+\VerbatimInput{../clusters/water_clusters/4193_water6BK1.xyz}
+\noindent \ce{(H_2O)_6} 4194%BK2
+\VerbatimInput{../clusters/water_clusters/4194_water6BK2.xyz}
+\noindent \ce{(H_2O)_6} 4195%CA
+\VerbatimInput{../clusters/water_clusters/4195_water6CA.xyz}
+\noindent \ce{(H_2O)_6} 4196%CB1
+\VerbatimInput{../clusters/water_clusters/4196_water6CB1.xyz}
+\newpage
+\noindent \ce{(H_2O)_6} 4197%CB2
+\VerbatimInput{../clusters/water_clusters/4197_water6CB2.xyz}
+\noindent \ce{(H_2O)_6} 4197%CB2
+\VerbatimInput{../clusters/water_clusters/4197_water6CB2.xyz}
+\noindent \ce{(H_2O)_6} 4198%CC
+\VerbatimInput{../clusters/water_clusters/4198_water6CC.xyz}
+\noindent \ce{(H_2O)_6} 4199%PR
+\VerbatimInput{../clusters/water_clusters/4199_water6PR.xyz}
+\newpage
+}}
+\normalsize
+\newpage
+

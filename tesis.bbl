@@ -1,0 +1,871 @@
+\begin{thebibliography}{103}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mun{\'{a}}rriz et~al.(2019)Mun{\'{a}}rriz, Laplaza, Pend{\'{a}}s, and
+  Contreras-Garc{\'{\i}}a]{Munrriz2019}
+Julen Mun{\'{a}}rriz, Rub{\'{e}}n Laplaza, A.~Mart{\'{\i}}n Pend{\'{a}}s, and
+  Julia Contreras-Garc{\'{\i}}a.
+\newblock A first step towards quantum energy potentials of electron pairs.
+\newblock \emph{Physical Chemistry Chemical Physics}, 21\penalty0 (8):\penalty0
+  4215--4223, 2019.
+\newblock \doi{10.1039/c8cp07509c}.
+\newblock URL \url{https://doi.org/10.1039/c8cp07509c}.
+
+\bibitem[Guevara-Vela et~al.(2016)Guevara-Vela, Romero-Montalvo, G{\'{o}}mez,
+  Ch{\'{a}}vez-Calvillo, Garc{\'{\i}}a-Revilla, Francisco, Pend{\'{a}}s, and
+  Rocha-Rinza]{Toche2016}
+Jos{\'{e}}~Manuel Guevara-Vela, Eduardo Romero-Montalvo, V{\'{\i}}ctor
+  Arturo~Mora G{\'{o}}mez, Rodrigo Ch{\'{a}}vez-Calvillo, Marco
+  Garc{\'{\i}}a-Revilla, Evelio Francisco, {\'{A}}ngel~Mart{\'{\i}}n
+  Pend{\'{a}}s, and Tom{\'{a}}s Rocha-Rinza.
+\newblock Hydrogen bond cooperativity and anticooperativity within the water
+  hexamer.
+\newblock \emph{Physical Chemistry Chemical Physics}, 18\penalty0
+  (29):\penalty0 19557--19566, 2016.
+\newblock \doi{10.1039/c6cp00763e}.
+\newblock URL \url{https://doi.org/10.1039/c6cp00763e}.
+
+\bibitem[Castor-Villegas et~al.(2020)Castor-Villegas, Guevara-Vela,
+  Narv{\'{a}}ez, Pend{\'{a}}s, Rocha-Rinza, and
+  Fern{\'{a}}ndez-Alarc{\'{o}}n]{Castor2020}
+V{\'{\i}}ctor~Manuel Castor-Villegas, Jos{\'{e}}~Manuel Guevara-Vela, Wilmer
+  E.~Vallejo Narv{\'{a}}ez, {\'{A}}ngel~Mart{\'{\i}}n Pend{\'{a}}s, Tom{\'{a}}s
+  Rocha-Rinza, and Alberto Fern{\'{a}}ndez-Alarc{\'{o}}n.
+\newblock On the strength of hydrogen bonding within water clusters on the
+  coordination limit.
+\newblock \emph{Journal of Computational Chemistry}, 41\penalty0 (26):\penalty0
+  2266--2277, August 2020.
+\newblock \doi{10.1002/jcc.26391}.
+\newblock URL \url{https://doi.org/10.1002/jcc.26391}.
+
+\bibitem[A.~Martín~Pendás(2001)]{promolden}
+E.~Francisco A.~Martín~Pendás.
+\newblock Promelf. a {ELF}/{IQA} code (available from the authors upon
+  request).
+\newblock 2001.
+
+\bibitem[S{\'a}nchez and Belmar(2006)]{sanchez2006revolucion}
+J.R.B. S{\'a}nchez and A.G. Belmar.
+\newblock \emph{La revoluci{\'o}n qu{\'\i}mica: Entre la historia y la
+  memoria}.
+\newblock Col{\textperiodcentered}lecci{\'o} Oberta: Hist{\`o}ria. Publicacions
+  de la Universitat de Val{\`e}ncia, 2006.
+\newblock ISBN 9788437065496.
+\newblock URL \url{https://books.google.com.mx/books?id=5gd9HoGGShgC}.
+
+\bibitem[Lee(1996)]{Lee1996-hp}
+J~Lee.
+\newblock \emph{Concise Inorganic Chemistry}.
+\newblock Wiley-Blackwell, London, 5 edition, 1996.
+
+\bibitem[Kumar et~al.(2014)Kumar, Gadre, Mohan, and Suresh]{Kumar2014}
+Anmol Kumar, Shridhar~R. Gadre, Neetha Mohan, and Cherumuttathu~H. Suresh.
+\newblock Lone pairs: An electrostatic viewpoint.
+\newblock \emph{The Journal of Physical Chemistry A}, 118\penalty0
+  (2):\penalty0 526--532, January 2014.
+\newblock \doi{10.1021/jp4117003}.
+\newblock URL \url{https://doi.org/10.1021/jp4117003}.
+
+\bibitem[Gallivan and Dougherty(1999)]{Gallivan1999}
+Justin~P. Gallivan and Dennis~A. Dougherty.
+\newblock Can lone pairs bind to a {$\pi$} system? the water {$\cdots$}
+  hexafluorobenzene interaction.
+\newblock \emph{Organic Letters}, 1\penalty0 (1):\penalty0 103--106, May 1999.
+\newblock \doi{10.1021/ol990577p}.
+\newblock URL \url{https://doi.org/10.1021/ol990577p}.
+
+\bibitem[Campbell et~al.(2006)Campbell, Williamson, and Heyden]{biology}
+N.~A. Campbell, B.~Williamson, and R.~J. Heyden.
+\newblock \emph{Biology: Exploring Life}.
+\newblock Pearson Prentice Hall, 2006.
+\newblock ISBN 0132508826.
+
+\bibitem[McMurry(2003)]{mcmurry}
+J.~E. McMurry.
+\newblock \emph{Organic Chemistry (with InfoTrac Printed Access Card)}.
+\newblock Brooks Cole, 2003.
+\newblock ISBN 0534389996.
+
+\bibitem[Voet and Voet(2010)]{voet}
+D.~Voet and J.~G. Voet.
+\newblock \emph{Biochemistry}.
+\newblock Wiley, 2010.
+\newblock ISBN 0470570954.
+
+\bibitem[Dean(1992)]{dean92:LHC}
+John~A. Dean, editor.
+\newblock \emph{{Lange's Handbook of Chemistry}}.
+\newblock McGraw-Hill, New York, 14th edition, 1992.
+
+\bibitem[Morrison and Boyd(1992)]{morrison}
+R.~T. Morrison and R.~N. Boyd.
+\newblock \emph{Organic Chemistry}.
+\newblock Prentice Hall, 1992.
+\newblock ISBN 0136400612.
+
+\bibitem[Serway and Faughn(2001)]{serway2001fisica}
+R.A. Serway and J.S. Faughn.
+\newblock \emph{F{\'\i}sica}.
+\newblock Pearson Educaci{\'o}n, 2001.
+\newblock ISBN 9789702600152.
+\newblock URL \url{https://books.google.com.mx/books?id=KCvdzVRb4I4C}.
+
+\bibitem[{CRC Handbook}(2007)]{noauthororeditor2007handbook}
+{CRC Handbook}.
+\newblock \emph{CRC Handbook of Chemistry and Physics, 88th Edition}.
+\newblock CRC Press, 88 edition, 2007.
+\newblock ISBN 0849304881.
+\newblock URL
+  \url{http://www.amazon.com/CRC-Handbook-Chemistry-Physics-88th/dp/0849304881/ref=sr_1_5?ie=UTF8&qid=1302802093&sr=8-5}.
+
+\bibitem[Smith et~al.(2005)Smith, Cappa, Wilson, Cohen, Geissler, and
+  Saykally]{smith2005}
+J.~D. Smith, C.~D. Cappa, K.~R. Wilson, R.~C. Cohen, P.~L. Geissler, and R.~J.
+  Saykally.
+\newblock {Unified description of temperature-dependent hydrogen-bond
+  rearrangements in liquid water.}
+\newblock \emph{Proc. Natl. Acad. Sci. USA}, 102:\penalty0 14171--4, 2005.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.0506899102}.
+
+\bibitem[Steiner(2002)]{steiner}
+Thomas Steiner.
+\newblock The hydrogen bond in the solid state.
+\newblock \emph{Angew. Chem. Int. Ed.}, 41:\penalty0 48--76, 2002.
+\newblock ISSN 1521-3773.
+\newblock \doi{10.1002/1521-3773(20020104)41:1<48::AID-ANIE48>3.0.CO;2-U}.
+\newblock URL
+  \url{http://dx.doi.org/10.1002/1521-3773(20020104)41:1<48::AID-ANIE48>3.0.CO;2-U}.
+
+\bibitem[Quane(1990)]{quane1990reception}
+Denis Quane.
+\newblock The reception of hydrogen bonding by the chemical community,
+  1920--1937.
+\newblock \emph{Bull. Hist. Chem}, 7:\penalty0 3--13, 1990.
+
+\bibitem[Hildebrand(1958)]{hildebrand1958wendell}
+JOEL~H Hildebrand.
+\newblock Wendell mitchell latimer.
+\newblock \emph{Biogr. Mem. Nat. Acad. Sci}, 32:\penalty0 224--237, 1958.
+
+\bibitem[Latimer and Rodebush(1920)]{Latimer1920}
+Wendell~M. Latimer and Worth~H. Rodebush.
+\newblock {POLARITY} {AND} {IONIZATION} {FROM} {THE} {STANDPOINT} {OF} {THE}
+  {LEWIS} {THEORY} {OF} {VALENCE}.
+\newblock \emph{Journal of the American Chemical Society}, 42\penalty0
+  (7):\penalty0 1419--1433, July 1920.
+\newblock \doi{10.1021/ja01452a015}.
+\newblock URL \url{https://doi.org/10.1021/ja01452a015}.
+
+\bibitem[Langmuir(1921)]{Langmuir1921}
+Irving Langmuir.
+\newblock Types of valence.
+\newblock \emph{Science}, 54\penalty0 (1386):\penalty0 59--67, July 1921.
+\newblock \doi{10.1126/science.54.1386.59}.
+\newblock URL \url{https://doi.org/10.1126/science.54.1386.59}.
+
+\bibitem[Huggins(1922{\natexlab{a}})]{Huggins1922}
+Maurice~L. Huggins.
+\newblock Atomic structure.
+\newblock \emph{Science}, 55\penalty0 (1426):\penalty0 459--460, April
+  1922{\natexlab{a}}.
+\newblock \doi{10.1126/science.55.1426.459}.
+\newblock URL \url{https://doi.org/10.1126/science.55.1426.459}.
+
+\bibitem[Huggins(1922{\natexlab{b}})]{Huggins1922_2}
+M.~L. Huggins.
+\newblock Electronic structures of atoms.
+\newblock \emph{The Journal of Physical Chemistry}, 26\penalty0 (7):\penalty0
+  601--625, October 1922{\natexlab{b}}.
+\newblock \doi{10.1021/j150223a001}.
+\newblock URL \url{https://doi.org/10.1021/j150223a001}.
+
+\bibitem[Sidgwick and Callow(1924)]{Sidgwick1924}
+Nevil~Vincent Sidgwick and Robert~Kenneth Callow.
+\newblock {LXVII}.{\textemdash}abnormal benzene derivatives.
+\newblock \emph{J. Chem. Soc., Trans.}, 125\penalty0 (0):\penalty0 527--538,
+  1924.
+\newblock \doi{10.1039/ct9242500527}.
+\newblock URL \url{https://doi.org/10.1039/ct9242500527}.
+
+\bibitem[Gilli and Gilli(2009)]{gilli}
+Gastone Gilli and Paola Gilli.
+\newblock \emph{The Nature of the Hydrogen Bond: Outline of a Comprehensive
+  Hydrogen Bond Theory (International Union of Crystallography Monographs on
+  Crystallography)}.
+\newblock Oxford University Press, USA, 2009.
+\newblock ISBN 0199558965.
+
+\bibitem[Chang(2006)]{chang}
+R.~Chang.
+\newblock \emph{Chemistry}.
+\newblock McGraw-Hill Science/Engineering/Math, 2006.
+\newblock ISBN 0073221031.
+
+\bibitem[Scheiner(1997)]{scheiner}
+S.~Scheiner.
+\newblock \emph{Hydrogen Bonding: A Theoretical Perspective (Topics in Physical
+  Chemistry)}.
+\newblock Oxford University Press, USA, 1997.
+\newblock ISBN 019509011X.
+
+\bibitem[Arunan et~al.(2011)Arunan, Desiraju, Klein, Sadlej, Scheiner, Alkorta,
+  Clary, Crabtree, Dannenberg, Hobza, Kjaergaard, Legon, Mennucci, and
+  Nesbitt]{iupac}
+E.~Arunan, G.~R. Desiraju, R.~A. Klein, J.~Sadlej, S.~Scheiner, I.~Alkorta,
+  D.~C. Clary, R.~H. Crabtree, J.~J. Dannenberg, P.~Hobza, H.~G. Kjaergaard,
+  A.~C. Legon, B.~Mennucci, and D.~J. Nesbitt.
+\newblock {Definition of the hydrogen bond (IUPAC Recommendations 2011)}.
+\newblock \emph{Pure Appl. Chem.}, 83:\penalty0 1637--1641, 2011.
+\newblock ISSN 0033-4545.
+\newblock \doi{10.1351/PAC-REC-10-01-02}.
+\newblock URL \url{http://iupac.org/publications/pac/83/8/1637/}.
+
+\bibitem[Liu and Cruzan(1996)]{liu_science}
+K.~Liu and J.~D. Cruzan.
+\newblock {Water clusters}.
+\newblock \emph{Science}, 271:\penalty0 929--933, 1996.
+\newblock URL \url{http://www.sciencemag.org/content/271/5251/929.short}.
+
+\bibitem[M{\'{o}} et~al.(1992)M{\'{o}}, Y{\'{a}}{\~{n}}ez, and Elguero]{M1992}
+O.~M{\'{o}}, M.~Y{\'{a}}{\~{n}}ez, and J.~Elguero.
+\newblock Cooperative (nonpairwise) effects in water trimers: An ab initio
+  molecular orbital study.
+\newblock \emph{The Journal of Chemical Physics}, 97\penalty0 (9):\penalty0
+  6628--6638, November 1992.
+\newblock \doi{10.1063/1.463666}.
+\newblock URL \url{https://doi.org/10.1063/1.463666}.
+
+\bibitem[Dunning(1989)]{Dunning1989}
+Thom~H. Dunning.
+\newblock Gaussian basis sets for use in correlated molecular calculations. i.
+  the atoms boron through neon and hydrogen.
+\newblock \emph{The Journal of Chemical Physics}, 90\penalty0 (2):\penalty0
+  1007--1023, January 1989.
+\newblock \doi{10.1063/1.456153}.
+\newblock URL \url{https://doi.org/10.1063/1.456153}.
+
+\bibitem[Einstein(1905)]{Einstein1905}
+A.~Einstein.
+\newblock \"{U}ber einen die erzeugung und verwandlung des lichtes betreffenden
+  heuristischen gesichtspunkt.
+\newblock \emph{Annalen der Physik}, 322\penalty0 (6):\penalty0 132--148, 1905.
+\newblock \doi{10.1002/andp.19053220607}.
+\newblock URL \url{https://doi.org/10.1002/andp.19053220607}.
+
+\bibitem[Schr\"{o}dinger(1926)]{Schrdinger1926}
+E.~Schr\"{o}dinger.
+\newblock An undulatory theory of the mechanics of atoms and molecules.
+\newblock \emph{Physical Review}, 28\penalty0 (6):\penalty0 1049--1070,
+  December 1926.
+\newblock \doi{10.1103/physrev.28.1049}.
+\newblock URL \url{https://doi.org/10.1103/physrev.28.1049}.
+
+\bibitem[Dirac(1928)]{Dirac1928}
+Paul Adrien~Maurice Dirac.
+\newblock The quantum theory of the electron.
+\newblock \emph{Proceedings of the Royal Society of London. Series A,
+  Containing Papers of a Mathematical and Physical Character}, 117\penalty0
+  (778):\penalty0 610--624, February 1928.
+\newblock \doi{10.1098/rspa.1928.0023}.
+\newblock URL \url{https://doi.org/10.1098/rspa.1928.0023}.
+
+\bibitem[Halzen and Martin(1984)]{Halzen1984}
+Francis Halzen and Alan~D. Martin.
+\newblock \emph{Quarks and Leptons: An Introductory Course in Modern Particle
+  Physics}.
+\newblock Wiley, 1984.
+\newblock ISBN 0471887412.
+
+\bibitem[Hawking(1974)]{HAWKING1974}
+S.~W. Hawking.
+\newblock Black hole explosions?
+\newblock \emph{Nature}, 248\penalty0 (5443):\penalty0 30--31, March 1974.
+\newblock \doi{10.1038/248030a0}.
+\newblock URL \url{https://doi.org/10.1038/248030a0}.
+
+\bibitem[Szabo and Ostlund(1996)]{szabo}
+A.~Szabo and N.~S. Ostlund.
+\newblock \emph{Modern Quantum Chemistry: Introduction to Advanced Electronic
+  Structure Theory (Dover Books on Chemistry)}.
+\newblock Dover Publications, 1996.
+\newblock ISBN 0486691861.
+
+\bibitem[Roothaan(1951)]{Roothaan1951}
+C.~C.~J. Roothaan.
+\newblock A study of two-center integrals useful in calculations on molecular
+  structure. i.
+\newblock \emph{The Journal of Chemical Physics}, 19\penalty0 (12):\penalty0
+  1445--1458, December 1951.
+\newblock \doi{10.1063/1.1748100}.
+\newblock URL \url{https://doi.org/10.1063/1.1748100}.
+
+\bibitem[Levine(1999)]{levine}
+I.~N. Levine.
+\newblock \emph{Quantum Chemistry}.
+\newblock Prentice Hall, 1999.
+\newblock ISBN 8120330641.
+
+\bibitem[Moshinsky(1968)]{Moshinsky}
+M.~Moshinsky.
+\newblock How good is the hartree-fock approximation.
+\newblock \emph{American Journal of Physics}, 36\penalty0 (1):\penalty0 52--53,
+  January 1968.
+\newblock \doi{10.1119/1.1974410}.
+\newblock URL \url{https://doi.org/10.1119/1.1974410}.
+
+\bibitem[DeFrees et~al.(1982)DeFrees, Raghavachari, Schlegel, and
+  Pople]{defrees1982effect}
+Douglas~J DeFrees, Krishnan Raghavachari, H~Bernhard Schlegel, and John~A
+  Pople.
+\newblock Effect of electron correlation of theoretical equilibrium geometries.
+  2. {C}omparison of third-order perturbation and configuration interaction
+  results with experiment.
+\newblock \emph{Journal of the American Chemical Society}, 104\penalty0
+  (21):\penalty0 5576--5580, 1982.
+
+\bibitem[Jim{\'{e}}nez-Hoyos et~al.(2012)Jim{\'{e}}nez-Hoyos, Henderson,
+  Tsuchimochi, and Scuseria]{JimnezHoyos2012}
+Carlos~A. Jim{\'{e}}nez-Hoyos, Thomas~M. Henderson, Takashi Tsuchimochi, and
+  Gustavo~E. Scuseria.
+\newblock Projected hartree{\textendash}fock theory.
+\newblock \emph{The Journal of Chemical Physics}, 136\penalty0 (16):\penalty0
+  164109, April 2012.
+\newblock \doi{10.1063/1.4705280}.
+\newblock URL \url{https://doi.org/10.1063/1.4705280}.
+
+\bibitem[Robert G.~Parr(1994)]{RobertG1994}
+Yang~Weitao Robert G.~Parr.
+\newblock \emph{Density-Functional Theory of Atoms and Molecules}.
+\newblock Oxford University Press Inc, 1994.
+\newblock ISBN 978-0-19-509276-9.
+
+\bibitem[Kasai et~al.(2018)Kasai, Tolborg, Sist, Zhang, Hathwar, Fils{\o},
+  Cenedese, Sugimoto, Overgaard, Nishibori, and Iversen]{Kasai2018}
+Hidetaka Kasai, Kasper Tolborg, Mattia Sist, Jiawei Zhang, Venkatesha~R.
+  Hathwar, Mette~{\O}. Fils{\o}, Simone Cenedese, Kunihisa Sugimoto, Jacob
+  Overgaard, Eiji Nishibori, and Bo~B. Iversen.
+\newblock X-ray electron density investigation of chemical bonding in van der
+  waals materials.
+\newblock \emph{Nature Materials}, 17\penalty0 (3):\penalty0 249--252, February
+  2018.
+\newblock \doi{10.1038/s41563-017-0012-2}.
+\newblock URL \url{https://doi.org/10.1038/s41563-017-0012-2}.
+
+\bibitem[Coppens and Vos(1971)]{Coppens1971}
+P.~Coppens and A.~Vos.
+\newblock Electron density distribution in cyanuric acid. {II}. {N}eutron
+  diffraction study at liquid nitrogen temperature and comparison of {X}-ray
+  neutron diffraction results.
+\newblock \emph{Acta Crystallographica Section B Structural Crystallography and
+  Crystal Chemistry}, 27\penalty0 (1):\penalty0 146--158, January 1971.
+\newblock \doi{10.1107/s0567740871001808}.
+\newblock URL \url{https://doi.org/10.1107/s0567740871001808}.
+
+\bibitem[L\"{o}wdin(1955)]{Lwdin1955}
+Per-Olov L\"{o}wdin.
+\newblock Quantum theory of many-particle systems. i. {P}hysical
+  interpretations by means of density matrices, natural spin-orbitals, and
+  convergence problems in the method of configurational interaction.
+\newblock \emph{Physical Review}, 97\penalty0 (6):\penalty0 1474--1489, March
+  1955.
+\newblock \doi{10.1103/physrev.97.1474}.
+\newblock URL \url{https://doi.org/10.1103/physrev.97.1474}.
+
+\bibitem[McWeeny and Sutcliffe(1969)]{mcweeny}
+R.~McWeeny and B.~T. Sutcliffe.
+\newblock \emph{Methods of Molecular Quantum Mechanics (Theoretical chemistry;
+  a series of monographs)}.
+\newblock Academic Press Inc, 1969.
+\newblock ISBN 012486550X.
+
+\bibitem[Hazewinkel(1990)]{1990}
+M.~Hazewinkel, editor.
+\newblock \emph{Encyclopaedia of Mathematics}.
+\newblock Springer Netherlands, 1990.
+\newblock \doi{10.1007/978-94-009-5991-0}.
+\newblock URL \url{https://doi.org/10.1007/978-94-009-5991-0}.
+
+\bibitem[Hohenberg and Kohn(1964)]{Hohenberg1964}
+P.~Hohenberg and W.~Kohn.
+\newblock Inhomogeneous electron gas.
+\newblock \emph{Physical Review}, 136\penalty0 (3B):\penalty0 B864--B871,
+  November 1964.
+\newblock \doi{10.1103/physrev.136.b864}.
+\newblock URL \url{https://doi.org/10.1103/physrev.136.b864}.
+
+\bibitem[Kohn and Sham(1965)]{Kohn1965}
+W.~Kohn and L.~J. Sham.
+\newblock Self-consistent equations including exchange and correlation effects.
+\newblock \emph{Physical Review}, 140\penalty0 (4A):\penalty0 A1133--A1138,
+  November 1965.
+\newblock \doi{10.1103/physrev.140.a1133}.
+\newblock URL \url{https://doi.org/10.1103/physrev.140.a1133}.
+
+\bibitem[Thomas(1927)]{Thomas1927}
+L.~H. Thomas.
+\newblock The calculation of atomic fields.
+\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 23\penalty0 (5):\penalty0 542--548, January 1927.
+\newblock \doi{10.1017/s0305004100011683}.
+\newblock URL \url{https://doi.org/10.1017/s0305004100011683}.
+
+\bibitem[Fermi(1927)]{fermi1927statistical}
+Enrico Fermi.
+\newblock Statistical method to determine some properties of atoms.
+\newblock \emph{Rend. Accad. Naz. Lincei}, 6\penalty0 (602-607):\penalty0 5,
+  1927.
+
+\bibitem[Runge and Gross(1984)]{Runge1984}
+Erich Runge and E.~K.~U. Gross.
+\newblock Density-functional theory for time-dependent systems.
+\newblock \emph{Physical Review Letters}, 52\penalty0 (12):\penalty0 997--1000,
+  March 1984.
+\newblock \doi{10.1103/physrevlett.52.997}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.52.997}.
+
+\bibitem[Koch and Holthausen(2001)]{Koch2001}
+Wolfram Koch and Max~C. Holthausen.
+\newblock \emph{A Chemist{\textquotesingle}s Guide to Density Functional
+  Theory}.
+\newblock Wiley, July 2001.
+\newblock \doi{10.1002/3527600043}.
+\newblock URL \url{https://doi.org/10.1002/3527600043}.
+
+\bibitem[Slater and Phillips(1974)]{Slater74}
+J.~C. Slater and James~C. Phillips.
+\newblock {Q}uantum {T}heory of {M}olecules and {S}olids vol. 4: {T}he
+  {S}elf-consistent {F}ield for {M}olecules and {S}olids.
+\newblock \emph{Physics Today}, 27\penalty0 (12):\penalty0 49--50, December
+  1974.
+\newblock \doi{10.1063/1.3129035}.
+\newblock URL \url{https://doi.org/10.1063/1.3129035}.
+
+\bibitem[Vosko et~al.(1980)Vosko, Wilk, and Nusair]{Vosko1980}
+S.~H. Vosko, L.~Wilk, and M.~Nusair.
+\newblock Accurate spin-dependent electron liquid correlation energies for
+  local spin density calculations: a critical analysis.
+\newblock \emph{Canadian Journal of Physics}, 58\penalty0 (8):\penalty0
+  1200--1211, August 1980.
+\newblock \doi{10.1139/p80-159}.
+\newblock URL \url{https://doi.org/10.1139/p80-159}.
+
+\bibitem[Ceperley and Alder(1980)]{Ceperley1980}
+D.~M. Ceperley and B.~J. Alder.
+\newblock Ground state of the electron gas by a stochastic method.
+\newblock \emph{Physical Review Letters}, 45\penalty0 (7):\penalty0 566--569,
+  August 1980.
+\newblock \doi{10.1103/physrevlett.45.566}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.45.566}.
+
+\bibitem[Perdew and Zunger(1981)]{Perdew1981}
+J.~P. Perdew and Alex Zunger.
+\newblock Self-interaction correction to density-functional approximations for
+  many-electron systems.
+\newblock \emph{Physical Review B}, 23\penalty0 (10):\penalty0 5048--5079, May
+  1981.
+\newblock \doi{10.1103/physrevb.23.5048}.
+\newblock URL \url{https://doi.org/10.1103/physrevb.23.5048}.
+
+\bibitem[Becke(1988)]{Becke1988}
+A.~D. Becke.
+\newblock Density-functional exchange-energy approximation with correct
+  asymptotic behavior.
+\newblock \emph{Physical Review A}, 38\penalty0 (6):\penalty0 3098--3100,
+  September 1988.
+\newblock \doi{10.1103/physreva.38.3098}.
+\newblock URL \url{https://doi.org/10.1103/physreva.38.3098}.
+
+\bibitem[Adamo and Barone(1998)]{Adamo1998}
+Carlo Adamo and Vincenzo Barone.
+\newblock Exchange functionals with improved long-range behavior and adiabatic
+  connection methods without adjustable parameters: The {mPW} and {mPW}1pw
+  models.
+\newblock \emph{The Journal of Chemical Physics}, 108\penalty0 (2):\penalty0
+  664--675, January 1998.
+\newblock \doi{10.1063/1.475428}.
+\newblock URL \url{https://doi.org/10.1063/1.475428}.
+
+\bibitem[Lee et~al.(1988)Lee, Yang, and Parr]{Lee1988}
+Chengteh Lee, Weitao Yang, and Robert~G. Parr.
+\newblock Development of the colle-salvetti correlation-energy formula into a
+  functional of the electron density.
+\newblock \emph{Physical Review B}, 37\penalty0 (2):\penalty0 785--789, January
+  1988.
+\newblock \doi{10.1103/physrevb.37.785}.
+\newblock URL \url{https://doi.org/10.1103/physrevb.37.785}.
+
+\bibitem[Weizs{\"a}cker(1935)]{weizsacker1935theorie}
+CF~von Weizs{\"a}cker.
+\newblock Zur theorie der kernmassen.
+\newblock \emph{Zeitschrift f{\"u}r Physik}, 96\penalty0 (7):\penalty0
+  431--458, 1935.
+
+\bibitem[Colle and Salvetti(1975)]{Colle1975}
+Renato Colle and Oriano Salvetti.
+\newblock Approximate calculation of the correlation energy for the closed
+  shells.
+\newblock \emph{Theoretica Chimica Acta}, 37\penalty0 (4):\penalty0 329--334,
+  1975.
+\newblock \doi{10.1007/bf01028401}.
+\newblock URL \url{https://doi.org/10.1007/bf01028401}.
+
+\bibitem[Perdew(1986)]{Perdew1986}
+John~P. Perdew.
+\newblock Density-functional approximation for the correlation energy of the
+  inhomogeneous electron gas.
+\newblock \emph{Physical Review B}, 33\penalty0 (12):\penalty0 8822--8824, June
+  1986.
+\newblock \doi{10.1103/physrevb.33.8822}.
+\newblock URL \url{https://doi.org/10.1103/physrevb.33.8822}.
+
+\bibitem[Sun et~al.(2015)Sun, Remsing, Zhang, Sun, Ruzsinszky, Peng, Yang,
+  Paul, Waghmare, Wu, Klein, and Perdew]{scan}
+Jianwei Sun, Richard~C. Remsing, Yubo Zhang, Zhaoru Sun, Adrienn Ruzsinszky,
+  Haowei Peng, Zenghui Yang, Arpita Paul, Umesh Waghmare, Xifan Wu, Michael~L.
+  Klein, and John~P. Perdew.
+\newblock Scan: An efficient density functional yielding accurate structures
+  and energies of diversely-bonded materials, 2015.
+\newblock URL \url{https://arxiv.org/abs/1511.01089}.
+
+\bibitem[Voorhis and Scuseria(1998)]{VanVoorhis1998}
+Troy~Van Voorhis and Gustavo~E. Scuseria.
+\newblock A novel form for the exchange-correlation energy functional.
+\newblock \emph{The Journal of Chemical Physics}, 109\penalty0 (2):\penalty0
+  400--410, July 1998.
+\newblock \doi{10.1063/1.476577}.
+\newblock URL \url{https://doi.org/10.1063/1.476577}.
+
+\bibitem[Gonis et~al.(1999)Gonis, Kioussis, and Ciftan]{1999}
+A.~Gonis, N.~Kioussis, and M.~Ciftan, editors.
+\newblock \emph{Electron Correlations and Materials Properties}.
+\newblock Springer {US}, 1999.
+\newblock \doi{10.1007/978-1-4615-4715-0}.
+\newblock URL \url{https://doi.org/10.1007/978-1-4615-4715-0}.
+
+\bibitem[Becke(1993)]{Becke1993}
+Axel~D. Becke.
+\newblock Density-functional thermochemistry. {III}. the role of exact
+  exchange.
+\newblock \emph{The Journal of Chemical Physics}, 98\penalty0 (7):\penalty0
+  5648--5652, April 1993.
+\newblock \doi{10.1063/1.464913}.
+\newblock URL \url{https://doi.org/10.1063/1.464913}.
+
+\bibitem[Ernzerhof and Perdew(1998)]{Ernzerhof1998}
+Matthias Ernzerhof and John~P. Perdew.
+\newblock Generalized gradient approximation to the angle- and system-averaged
+  exchange hole.
+\newblock \emph{The Journal of Chemical Physics}, 109\penalty0 (9):\penalty0
+  3313--3320, September 1998.
+\newblock \doi{10.1063/1.476928}.
+\newblock URL \url{https://doi.org/10.1063/1.476928}.
+
+\bibitem[Zhao and Truhlar(2007)]{Zhao2007}
+Yan Zhao and Donald~G. Truhlar.
+\newblock The {M}06 suite of density functionals for main group
+  thermochemistry, thermochemical kinetics, noncovalent interactions, excited
+  states, and transition elements: two new functionals and systematic testing
+  of four {M}06-class functionals and 12 other functionals.
+\newblock \emph{Theoretical Chemistry Accounts}, 120\penalty0 (1-3):\penalty0
+  215--241, July 2007.
+\newblock \doi{10.1007/s00214-007-0310-x}.
+\newblock URL \url{https://doi.org/10.1007/s00214-007-0310-x}.
+
+\bibitem[Zhao et~al.(2005)Zhao, Schultz, and Truhlar]{Zhao2005}
+Yan Zhao, Nathan~E. Schultz, and D.~G. Truhlar.
+\newblock Exchange-correlation functional with broad accuracy for metallic and
+  nonmetallic compounds, kinetics, and noncovalent interactions.
+\newblock \emph{The Journal of Chemical Physics}, 123\penalty0 (16):\penalty0
+  161103, October 2005.
+\newblock \doi{10.1063/1.2126975}.
+\newblock URL \url{https://doi.org/10.1063/1.2126975}.
+
+\bibitem[Euler(1736)]{euler1736}
+Leonhard Euler.
+\newblock \emph{Solutio problematis ad geometriam situs pertinentis}.
+\newblock Euler Archive - All Works, 1736.
+
+\bibitem[Listing(1848)]{listing}
+J.B. Listing.
+\newblock \emph{Vorstudien zur Topologie}.
+\newblock Vandenhoeck und Ruprecht, 1848.
+
+\bibitem[Fritsch~Rudolf(1998)]{4colores}
+Gerda Fritsch~Rudolf.
+\newblock \emph{The Four-Color Theorem}.
+\newblock Springer, 1998.
+\newblock ISBN 978-1-4612-1720-6.
+
+\bibitem[Crilly(2014)]{50cosas}
+Tony Crilly.
+\newblock \emph{50 cosas que hay que saber sobre matem\'aticas}.
+\newblock Ariel, 2014.
+\newblock ISBN 6079377640.
+
+\bibitem[Bader(1994)]{bader}
+R.~F.~W. Bader.
+\newblock \emph{Atoms in Molecules: A Quantum Theory (International Series of
+  Monographs on Chemistry)}.
+\newblock Oxford University Press, USA, 1994.
+\newblock ISBN 0198558651.
+
+\bibitem[Matta(2002)]{matta}
+C.~F. Matta.
+\newblock \emph{Applications of the Quantum theory of atoms in molecules to
+  chemical and biochemical problems}.
+\newblock PhD thesis, McMaster University, 2002.
+
+\bibitem[Koritsanszky and Coppens(2001)]{coppens}
+Tibor~S. Koritsanszky and Philip Coppens.
+\newblock Chemical applications of {X}-ray charge-density analysis.
+\newblock \emph{Chemical Reviews}, 101\penalty0 (6):\penalty0 1583--1628, June
+  2001.
+\newblock \doi{10.1021/cr990112c}.
+\newblock URL \url{https://doi.org/10.1021/cr990112c}.
+
+\bibitem[Keith(2012)]{todd}
+Todd Keith.
+\newblock Aimall web site, 2012.
+\newblock http://aim.tkgristmill.com.
+
+\bibitem[Biegler-k\"{o}nig et~al.(1982)Biegler-k\"{o}nig, Bader, and
+  Tang]{Bieglerknig1982}
+Friedrich~W. Biegler-k\"{o}nig, Richard F.~W. Bader, and Ting-Hua Tang.
+\newblock Calculation of the average properties of atoms in molecules. {II}.
+\newblock \emph{Journal of Computational Chemistry}, 3\penalty0 (3):\penalty0
+  317--328, September 1982.
+\newblock \doi{10.1002/jcc.540030306}.
+\newblock URL \url{https://doi.org/10.1002/jcc.540030306}.
+
+\bibitem[Blanco et~al.(2005)Blanco, Pend{\'{a}}s, and Francisco]{Blanco2005}
+M.~A. Blanco, A.~Mart{\'{\i}}n Pend{\'{a}}s, and E.~Francisco.
+\newblock Interacting quantum atoms:{\hspace{0.167em}} a correlated energy
+  decomposition scheme based on the quantum theory of atoms in molecules.
+\newblock \emph{Journal of Chemical Theory and Computation}, 1\penalty0
+  (6):\penalty0 1096--1109, August 2005.
+\newblock \doi{10.1021/ct0501093}.
+\newblock URL \url{https://doi.org/10.1021/ct0501093}.
+
+\bibitem[Savin et~al.(1992)Savin, Jepsen, Flad, Andersen, Preuss, and von
+  Schnering]{Savin1992}
+Andreas Savin, Ove Jepsen, J\"{u}rgen Flad, Ole~Krogh Andersen, Heinzwerner
+  Preuss, and Hans~Georg von Schnering.
+\newblock Electron localization in solid-state structures of the elements: the
+  diamond structure.
+\newblock \emph{Angewandte Chemie International Edition in English},
+  31\penalty0 (2):\penalty0 187--188, February 1992.
+\newblock \doi{10.1002/anie.199201871}.
+\newblock URL \url{https://doi.org/10.1002/anie.199201871}.
+
+\bibitem[Pend{\'{a}}s et~al.(2008)Pend{\'{a}}s, Francisco, and
+  Blanco]{MartnPends2008}
+A.~Mart{\'{\i}}n Pend{\'{a}}s, E.~Francisco, and M.A. Blanco.
+\newblock Electron{\textendash}electron interactions between {ELF} basins.
+\newblock \emph{Chemical Physics Letters}, 454\penalty0 (4-6):\penalty0
+  396--403, March 2008.
+\newblock \doi{10.1016/j.cplett.2008.02.029}.
+\newblock URL \url{https://doi.org/10.1016/j.cplett.2008.02.029}.
+
+\bibitem[Maxwell et~al.(2016)Maxwell, Pend{\'a}s, and Popelier]{Maxwell2016}
+Peter Maxwell, {\'A}ngel~Mart{\'i}n Pend{\'a}s, and Paul L.~A. Popelier.
+\newblock Extension of the interacting quantum atoms ({IQA}) approach to
+  {B}3{LYP} level density functional theory ({DFT}).
+\newblock \emph{Phys. Chem. Chem. Phys.}, 18:\penalty0 20986--21000, 2016.
+
+\bibitem[Fenniri et~al.(2001)Fenniri, Mathivanan, Vidale, Sherman, Hallenga,
+  Wood, and Stowell]{Fenniri2001}
+Hicham Fenniri, Packiarajan Mathivanan, Kenrick~L. Vidale, Debra~M. Sherman,
+  Klaas Hallenga, Karl~V. Wood, and Joseph~G. Stowell.
+\newblock Helical rosette nanotubes:{\hspace{0.167em}} design, self-assembly,
+  and characterization.
+\newblock \emph{Journal of the American Chemical Society}, 123\penalty0
+  (16):\penalty0 3854--3855, March 2001.
+\newblock \doi{10.1021/ja005886l}.
+\newblock URL \url{https://doi.org/10.1021/ja005886l}.
+
+\bibitem[Kollman(1977)]{kollman1977noncovalent}
+Peter~A Kollman.
+\newblock Noncovalent interactions.
+\newblock \emph{Accounts of Chemical Research}, 10\penalty0 (10):\penalty0
+  365--371, 1977.
+
+\bibitem[Contreras-García et~al.(2011{\natexlab{a}})Contreras-García,
+  Johnson, Keinan, Chaudret, Piquemal, Beratan, and
+  Yang]{Julia_Contreras_G2011_1}
+Julia Contreras-García, Erin~R. Johnson, Shahar Keinan, Robin Chaudret,
+  Jean-Philip Piquemal, David~N. Beratan, and Weitao Yang.
+\newblock {NCIPLOT}: A program for plotting noncovalent interaction regions.
+\newblock \emph{Journal of Chemical Theory and Computation}, 7\penalty0
+  (3):\penalty0 625--632, January 2011{\natexlab{a}}.
+\newblock \doi{10.1021/ct100641a}.
+\newblock URL \url{https://doi.org/10.1021/ct100641a}.
+
+\bibitem[Contreras-García et~al.(2011{\natexlab{b}})Contreras-García, Yang,
+  and Johnson]{ContrerasG2011_2}
+Julia Contreras-García, Weitao Yang, and Erin~R. Johnson.
+\newblock Analysis of hydrogen-bond interaction potentials from the electron
+  density: Integration of noncovalent interaction regions.
+\newblock \emph{The Journal of Physical Chemistry A}, 115\penalty0
+  (45):\penalty0 12983--12990, July 2011{\natexlab{b}}.
+\newblock \doi{10.1021/jp204278k}.
+\newblock URL \url{https://doi.org/10.1021/jp204278k}.
+
+\bibitem[Narth et~al.(2016)Narth, Maroun, Boto, Chaudret, Bonnet, Piquemal, and
+  Contreras-García]{Narth2016}
+Christophe Narth, Zeina Maroun, Roberto~A. Boto, Robin Chaudret, Marie-Laure
+  Bonnet, Jean-Philip Piquemal, and Julia Contreras-García.
+\newblock A complete {NCI} perspective: From new bonds to reactivity.
+\newblock In \emph{Challenges and Advances in Computational Chemistry and
+  Physics}, pages 491--527. Springer International Publishing, 2016.
+\newblock \doi{10.1007/978-3-319-29022-5_18}.
+\newblock URL \url{https://doi.org/10.1007/978-3-319-29022-5_18}.
+
+\bibitem[Lane et~al.(2013)Lane, Contreras-García, Piquemal, Miller, and
+  Kjaergaard]{Lane2013}
+Joseph~R. Lane, Julia Contreras-García, Jean-Philip Piquemal, Benjamin~J.
+  Miller, and Henrik~G. Kjaergaard.
+\newblock Are bond critical points really critical for hydrogen bonding?
+\newblock \emph{Journal of Chemical Theory and Computation}, 9\penalty0
+  (8):\penalty0 3263--3266, July 2013.
+\newblock \doi{10.1021/ct400420r}.
+\newblock URL \url{https://doi.org/10.1021/ct400420r}.
+
+\bibitem[Zhao and Truhlar(2006)]{Zhao2006}
+Yan Zhao and Donald~G. Truhlar.
+\newblock Density functional for spectroscopy:~ no long-range self-interaction
+  error, good performance for rydberg and charge-transfer states, and better
+  performance on average than {B}3{LYP} for ground states.
+\newblock \emph{J. Phys. Chem. A}, 110\penalty0 (49):\penalty0 13126--13130,
+  December 2006.
+\newblock \doi{10.1021/jp066479k}.
+\newblock URL \url{https://doi.org/10.1021/jp066479k}.
+
+\bibitem[Kendall et~al.(1992)Kendall, Dunning, and Harrison]{Kendall1992}
+Rick~A. Kendall, Thom~H. Dunning, and Robert~J. Harrison.
+\newblock Electron affinities of the first-row atoms revisited. systematic
+  basis sets and wave functions.
+\newblock \emph{The Journal of Chemical Physics}, 96\penalty0 (9):\penalty0
+  6796--6806, May 1992.
+\newblock \doi{10.1063/1.462569}.
+\newblock URL \url{https://doi.org/10.1063/1.462569}.
+
+\bibitem[Woon and Dunning(1993)]{Woon1993}
+David~E. Woon and Thom~H. Dunning.
+\newblock Gaussian basis sets for use in correlated molecular calculations.
+  {III}. the atoms aluminum through argon.
+\newblock \emph{The Journal of Chemical Physics}, 98\penalty0 (2):\penalty0
+  1358--1371, January 1993.
+\newblock \doi{10.1063/1.464303}.
+\newblock URL \url{https://doi.org/10.1063/1.464303}.
+
+\bibitem[Frisch et~al.(2016)Frisch, Trucks, Schlegel, Scuseria, Robb,
+  Cheeseman, Scalmani, Barone, Petersson, Nakatsuji, Li, Caricato, Marenich,
+  Bloino, Janesko, Gomperts, Mennucci, Hratchian, Ortiz, Izmaylov, Sonnenberg,
+  Williams-Young, Ding, Lipparini, Egidi, Goings, Peng, Petrone, Henderson,
+  Ranasinghe, Zakrzewski, Gao, Rega, Zheng, Liang, Hada, Ehara, Toyota, Fukuda,
+  Hasegawa, Ishida, Nakajima, Honda, Kitao, Nakai, Vreven, Throssell,
+  Montgomery, Peralta, Ogliaro, Bearpark, Heyd, Brothers, Kudin, Staroverov,
+  Keith, Kobayashi, Normand, Raghavachari, Rendell, Burant, Iyengar, Tomasi,
+  Cossi, Millam, Klene, Adamo, Cammi, Ochterski, Martin, Morokuma, Farkas,
+  Foresman, and Fox]{g16}
+M.~J. Frisch, G.~W. Trucks, H.~B. Schlegel, G.~E. Scuseria, M.~A. Robb, J.~R.
+  Cheeseman, G.~Scalmani, V.~Barone, G.~A. Petersson, H.~Nakatsuji, X.~Li,
+  M.~Caricato, A.~V. Marenich, J.~Bloino, B.~G. Janesko, R.~Gomperts,
+  B.~Mennucci, H.~P. Hratchian, J.~V. Ortiz, A.~F. Izmaylov, J.~L. Sonnenberg,
+  D.~Williams-Young, F.~Ding, F.~Lipparini, F.~Egidi, J.~Goings, B.~Peng,
+  A.~Petrone, T.~Henderson, D.~Ranasinghe, V.~G. Zakrzewski, J.~Gao, N.~Rega,
+  G.~Zheng, W.~Liang, M.~Hada, M.~Ehara, K.~Toyota, R.~Fukuda, J.~Hasegawa,
+  M.~Ishida, T.~Nakajima, Y.~Honda, O.~Kitao, H.~Nakai, T.~Vreven,
+  K.~Throssell, J.~A. Montgomery, {Jr.}, J.~E. Peralta, F.~Ogliaro, M.~J.
+  Bearpark, J.~J. Heyd, E.~N. Brothers, K.~N. Kudin, V.~N. Staroverov, T.~A.
+  Keith, R.~Kobayashi, J.~Normand, K.~Raghavachari, A.~P. Rendell, J.~C.
+  Burant, S.~S. Iyengar, J.~Tomasi, M.~Cossi, J.~M. Millam, M.~Klene, C.~Adamo,
+  R.~Cammi, J.~W. Ochterski, R.~L. Martin, K.~Morokuma, O.~Farkas, J.~B.
+  Foresman, and D.~J. Fox.
+\newblock Gaussian˜16 {R}evision {C}.01, 2016.
+\newblock Gaussian Inc. Wallingford CT.
+
+\bibitem[Jim{\'{e}}nez-Gr{\'{a}}valos et~al.(2019)Jim{\'{e}}nez-Gr{\'{a}}valos,
+  Casals-Sainz, Francisco, Rocha-Rinza, Pend{\'{a}}s, and
+  Guevara-Vela]{JimenezGravalos2019}
+Fernando Jim{\'{e}}nez-Gr{\'{a}}valos, Jos{\'{e}}~Luis Casals-Sainz, Evelio
+  Francisco, Tom{\'{a}}s Rocha-Rinza, {\'{A}}ngel~Mart{\'{\i}}n Pend{\'{a}}s,
+  and Jos{\'{e}}~Manuel Guevara-Vela.
+\newblock {DFT} performance in the {IQA} energy partition of small water
+  clusters.
+\newblock \emph{Theoretical Chem. Accounts}, 139\penalty0 (1), November 2019.
+\newblock \doi{10.1007/s00214-019-2514-2}.
+\newblock URL \url{https://doi.org/10.1007/s00214-019-2514-2}.
+
+\bibitem[S.~Noury and Silvi(1997)]{topmod09}
+F.~Fuster S.~Noury, X.~Krokidis and B.~Silvi.
+\newblock Topmod package.
+\newblock 1997.
+
+\bibitem[Boto et~al.(2020)Boto, Peccati, Laplaza, Quan, Carbone, Piquemal,
+  Maday, and Contreras-García]{Boto2020}
+Roberto~A. Boto, Francesca Peccati, Rubén Laplaza, Chaoyu Quan, Alessandra
+  Carbone, Jean-Philip Piquemal, Yvon Maday, and Julia Contreras-García.
+\newblock {NCIPLOT}4: Fast, robust, and quantitative analysis of noncovalent
+  interactions.
+\newblock \emph{Journal of Chemical Theory and Computation}, 16\penalty0
+  (7):\penalty0 4150--4158, May 2020.
+\newblock \doi{10.1021/acs.jctc.0c00063}.
+\newblock URL \url{https://doi.org/10.1021/acs.jctc.0c00063}.
+
+\bibitem[Humphrey et~al.(1996)Humphrey, Dalke, and Schulten]{HUMP96}
+William Humphrey, Andrew Dalke, and Klaus Schulten.
+\newblock {VMD} -- {V}isual {M}olecular {D}ynamics.
+\newblock \emph{Journal of Molecular Graphics}, 14:\penalty0 33--38, 1996.
+
+\bibitem[Momma and Izumi(2011)]{vesta}
+Koichi Momma and Fujio Izumi.
+\newblock {VESTA}{\hspace{0.25em}}for three-dimensional visualization of
+  crystal, volumetric and morphology data.
+\newblock \emph{Journal of Applied Crystallography}, 44\penalty0 (6):\penalty0
+  1272--1276, October 2011.
+\newblock \doi{10.1107/s0021889811038970}.
+\newblock URL \url{https://doi.org/10.1107/s0021889811038970}.
+
+\bibitem[Temelso et~al.(2011)Temelso, Archer, and Shields]{Temelso2011}
+Berhane Temelso, Kaye~A. Archer, and George~C. Shields.
+\newblock Benchmark structures and binding energies of small water clusters
+  with anharmonicity corrections.
+\newblock \emph{The Journal of Physical Chemistry A}, 115\penalty0
+  (43):\penalty0 12034--12046, October 2011.
+\newblock \doi{10.1021/jp2069489}.
+\newblock URL \url{https://doi.org/10.1021/jp2069489}.
+
+\bibitem[Papajak et~al.(2011)Papajak, Zheng, Xu, Leverentz, and
+  Truhlar]{Papajak2011}
+Ewa Papajak, Jingjing Zheng, Xuefei Xu, Hannah~R. Leverentz, and Donald~G.
+  Truhlar.
+\newblock Perspectives on basis sets beautiful: Seasonal plantings of diffuse
+  basis functions.
+\newblock \emph{Journal of Chemical Theory and Computation}, 7\penalty0
+  (10):\penalty0 3027--3034, August 2011.
+\newblock \doi{10.1021/ct200106a}.
+\newblock URL \url{https://doi.org/10.1021/ct200106a}.
+
+\bibitem[Mu{\~{n}}oz-Caro and Ni{\~{n}}o(1997)]{MuozCaro1997}
+Camelia Mu{\~{n}}oz-Caro and Alfonso Ni{\~{n}}o.
+\newblock Effect of anharmonicities on the thermodynamic properties of the
+  water dimer.
+\newblock \emph{The Journal of Physical Chemistry A}, 101\penalty0
+  (22):\penalty0 4128--4135, May 1997.
+\newblock \doi{10.1021/jp9701348}.
+\newblock URL \url{https://doi.org/10.1021/jp9701348}.
+
+\bibitem[Rocha-Rinza(2003)]{tomas}
+T.~Rocha-Rinza.
+\newblock \emph{Estudio de las propiedades topol{\'{o}}gicas de la densidad
+  electr{\'{o}}nica de c{\'{u}}mulos de agua}.
+\newblock Tesis para obtener el t{\'{\i}}tulo de Qu{\'{\i}}mico, Facultad de
+  Qu{\'{\i}}mica, UNAM, 2003.
+
+\end{thebibliography}

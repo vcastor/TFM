@@ -1,0 +1,28 @@
+\chapter{Conclusions}
+
+We have used the IQA partition applied to the ELF topology to study
+the conectivity of small water cluster.
+
+\begin{enumerate}
+
+\item The use of M06-2X/aug-cc-pVTZ was a good way to predict
+the electronic energy and the wavefunction to compute a topology ELF
+analysis.
+
+\item We have the best set up known to compute small water cluster ELF
+analysis with {\sc{Promelf}} code.
+
+\item The results are in general consistents with topological studies on 
+the electronic density in similar systems, as we compared
+with the result published ~\cite{tomas, Toche2016, Castor2020}.
+
+\item The code written to compute the systems would be useful for future researchers
+having just one input file to do a NCI plot or TopMod work. As well
+to have a new \texttt{*.wfn} file with the ELF maxima.
+
+\item As for now, the integrations seem to be complicated, difficulting the
+analysis of general trends from IQA-ELF partition in water clusters.
+
+\end{enumerate}
+
+

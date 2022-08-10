@@ -1,0 +1,209 @@
+\documentclass[12pt,4apaper,twoside,UTF8]{book}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[main=english, spanish, russian, activeacute]{babel}
+\decimalpoint
+\usepackage{graphicx}
+\usepackage[Glenn]{fncychap}
+%\renewcommand{\thechapter}{\Roman{chapter}}
+%\ChNameVar{\bfseries\Huge\rmfamily}
+%\ChTitleVar{\bfseries\Huge\rmfamily}
+%\setlength{\headsep}{1cm}
+%\usepackage[Lenny]{fncychap}
+%\usepackage[Glenn]{fncychap}
+%\usepackage{fncychap}
+%\usepackage{parskip}
+%\usepackage{etoolbox}
+%\makeatletter
+%\patchcmd{\@makechapterhead}
+%  {\parindent}
+%  {\setlength{\parskip}{0pt}\parindent}
+%  {}{}
+%\patchcmd{\@makeschapterhead}
+%  {\parindent}
+%  {\setlength{\parskip}{0pt}\parindent}
+%  {}{}
+%\makeatother
+%\makeatletter
+  %\ChNameVar{\Large\rm} % sets the style for name
+  %\ChNameVar{\bfseries\Large\sf} % sets the style for name
+  %\ChNumVar{\Huge} % sets the style for digit
+  %\ChTitleVar{\bfseries\Large\rm} % sets the style for title
+  %\ChTitleVar{\Large\rm\centering} % sets the style for title
+  %\ChRuleWidth{1pt} % Set RW=4pt
+  %\ChNameUpperCase % Make name uppercase
+  %\ChTitleUpperCase
+  %\renewcommand{\DOCH}{%
+  %  \setlength{\fboxrule}{\RW} % Let fbox lines be controlled by % \ChRuleWidth
+  %  \fbox{\CNV\FmN{\@chapapp}\space \CNoV\thechapter}\par\nobreak
+  %  \vskip 40\p@}
+  %\renewcommand{\DOTI}[1]{%
+  %  \CTV\FmTi{#1}\par\nobreak
+  %  \vskip 40\p@}
+  %\renewcommand{\DOTIS}[1]{%
+  %  \CTV\FmTi{#1}\par\nobreak
+  %  \vskip 40\p@}
+%\makeatother
+
+%\ChNameVar{\bfseries\Large\sf}
+%\ChRuleWidth{1pt}
+%\ChNumVar{\Huge}
+%\ChNameUpperCase
+%\ChTitleVar{\bfseries\Large\rm}
+%\ChTitleUpperCase
+%\ChTitleVar{\Large\sc}
+
+%\usepackage{expl3}
+%\expandafter\def\csname ver@l3regex.sty\endcsname{}
+%\usepackage{glossaries}
+\usepackage[nonumberlist]{glossaries}
+%\usepackage[nopostdot,acronym,toc,section=chapter,style=indexgroup,nomain]{glossaries}
+\usepackage{t1enc}
+\usepackage{appendix}
+\usepackage{epsfig}
+\usepackage[version=3]{mhchem} % \ce for [H+] and that kind of things
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{braket}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+\usepackage{listings, style/lstlisting}
+\usepackage{ctable}
+\usepackage{multicol}
+\usepackage[font={footnotesize,onehalfspacing},labelfont=bf]{caption}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\input{insbox}
+\usepackage[utf8]{inputenc}%[latin1]%
+\newcommand*\chancery{\fontfamily{pzc}\selectfont}
+%\usepackage{coloremoji}
+%\usepackage{emoji}
+%\setemojifont{Apple Color Emoji}
+%\usepackage{fontspec}
+
+\usepackage{siunitx}
+\sisetup{
+group-minimum-digits = 4
+%separate-uncertainty
+}
+\DeclareSIUnit{\calorie}{cal}
+
+\usepackage{nicefrac}
+\usepackage{xfrac}
+\usepackage{blindtext}
+
+\usepackage{hyperref}
+\definecolor{zaffre}{rgb}{0.0, 0.08, 0.66}
+\definecolor{slateblue}{rgb}{0.42, 0.35, 0.8}
+\definecolor{royalazure}{rgb}{0.0, 0.22, 0.66}
+\definecolor{smalt(darkpowderblue)}{rgb}{0.0, 0.2, 0.6}
+\definecolor{antiquefuchsia}{rgb}{0.57, 0.36, 0.51}
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+\definecolor{byzantine}{rgb}{0.74, 0.2, 0.64}
+\hypersetup{
+    colorlinks=true,
+    linktoc=all,
+    linkcolor=smalt(darkpowderblue),
+%    linktocpage=true,
+    citecolor=antiquefuchsia,
+%    citecolor=byzantine,
+    pdfauthor={VCastor},
+    pdftitle={Master Thesis}
+}
+
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{fancyvrb}
+\usepackage{adjustbox}
+\usepackage{pseudocode} % Environment for specifying algorithms in a natural way
+\usepackage{chemfig} % Molecule drawing
+\usepackage{multirow} % Multiples row in the same page
+%\usepackage [ all ]{xy} % Diagrams for thermodinamics
+\usepackage{subcaption} %subcaptions
+\usepackage{physics}
+%\usepackage{breqn}
+\usepackage{longtable}
+
+\addtolength{\voffset}{0.0cm}
+\addtolength{\hoffset}{0.0cm}
+\addtolength{\textwidth}{0.0cm}
+\addtolength{\textheight}{0.0cm}
+\addtolength{\marginparwidth}{1.0cm}
+
+\renewcommand{\baselinestretch}{1.5}
+
+\usepackage{anysize}
+\marginsize{2.5cm}{2.5cm}{2.0cm}{2.0cm} 
+
+%%%\usepackage[sort&compress,numbers]{natbib}
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+%\bibliographystyle{abbrvnat}
+\setcitestyle{square,numbers,comma}
+%\usepackage[authoryear,number]{natbib}
+%\usepackage[sort&compress]{natbib}
+%%\bibliographystyle{authoryear}
+%\bibliographystyle{unsrt}
+
+
+%---- Emojis
+%                      \usepackage{graphicx} Need it but already call it
+\newcommand*{\img}[1]{%
+    \raisebox{-.3\baselineskip}{%
+        \includegraphics[
+        height=\baselineskip,
+        width=\baselineskip,
+        keepaspectratio,
+        ]{#1}%
+    }%
+}
+
+%---- Fancy table
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\tcbuselibrary{skins}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+\tcbset{tab1/.style={fonttitle=\bfseries\large,fontupper=\normalsize\sffamily,
+colback=yellow!10!white,colframe=red!75!black,colbacktitle=Salmon!40!white,
+coltitle=black,center title,freelance,frame code={
+\foreach \n in {north east,north west,south east,south west}
+{\path [fill=red!75!black] (interior.\n) circle (3mm); };},}}
+\tcbset{tab2/.style={enhanced,fonttitle=\bfseries,fontupper=\normalsize\sffamily,
+colback=yellow!10!white,colframe=red!50!black,colbacktitle=Salmon!40!white,
+coltitle=black,center title}}
+
+
+\usepackage{csquotes} % Context sensitive quotation facilities
+
+\usepackage{multicol}
+
+\widowpenalty=500
+\clubpenalty=500
+
+\newcommand{\HF}{\mathrm{HF}}
+\newcommand{\Ha}{\widehat{H}}
+\newcommand{\T}{\widehat{T}}
+\newcommand{\SD}{\mathrm{SD}}
+\newcommand{\CC}{\mathrm{CC}}
+
+\pagestyle{fancy}
+\fancyhead[LO,RE]{}
+%\lhead[]{\leftmark}
+%\rhead[]{\thepage}
+%\fancyfoot[RO,LE]{}
+%\rfoot[]{\thepage}
+%\lfoot[]{\thepage}
+
+%--Chinise
+%\usepackage{xeCJK}
+%\setCJKmainfont{SimSun}
+\usepackage{CJKutf8}
+%--Cyrilc?
+%\usepackage{hyphenat}
+\DeclareRobustCommand{\cyrins}[1]{%
+  \begingroup\fontfamily{cmr}%
+  \foreignlanguage{russian}{#1}%
+  \endgroup
+}

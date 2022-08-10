@@ -1,0 +1,31 @@
+E=\displaystyle\sum_{A} E_{net}^A +\displaystyle\frac{1}{2}\displaystyle\sum_{A}\displaystyle\sum_{B\ne A} E_{int}^{AB}
+
+E=\displaystyle\sum_{A}\left(T^A +V_{ne}^{AA}+V_{ee}^{AA}\right)+\displaystyle\frac{1}{2}+\displaystyle\frac{1}{2}\displaystyle\sum_{A}\displaystyle\sum_{B\ne A}\left(V_{nn}^{AB} +V_{ne}^{AB}+V_{ne}^{BA}+V_{ee}^{AB}\right)
+
+E_{net}^{\mathcal{G}}=\displaystyle\sum_{A\in\mathcal{G}}E_{net}^{A} +\displaystyle\frac{1}{2}\displaystyle\sum_{A\in\mathcal{G}}\displaystyle\sum_{\substack{B\in\mathcal{G} \\ B\neq A}}E_{int}^{AB}
+
+E_{int}^{\mathcal{GH}}=\displaystyle\sum_{A\in\mathcal{G}}\displaystyle\sum_{B\in\mathcal{H}}E_{int}^{AB}
+
+E=\displaystyle\sum_{\mathcal{G}}E_{net}^{\mathcal{G}} +\displaystyle\frac{1}{2}\displaystyle\sum_{\mathcal{G}}\displaystyle\sum_{\mathcal{H\neq G}}E_{int}^{\mathcal{GH}}
+
+\mathcal{G+H+J+...\rightleftharpoons 
+G...H...J}
+
+\Delta E=\displaystyle\sum_{\mathcal{G}}E_{def}^{\mathcal{G}}+\displaystyle\sum_{\mathcal{G}}\displaystyle\sum_{\mathcal{G>H}}E_{int}^{\mathcal{GH}}
+
+E_{def}^{\mathcal{H}}=E_{net}^{\mathcal{H}}-E_{iso}^{\mathcal{H}}
+
+\Delta E=\displaystyle\sum_{\mathcal{G}}\displaystyle\sum_{\mathcal{G>H}}f\left(E_{int}^{\mathcal{GH}},E_{def}^{\mathcal{G}},E_{def}^{\mathcal{H}}\right)
+
+\Delta E=\displaystyle\sum_{\mathcal{G}}\displaystyle\sum_{\mathcal{G>H}}\left(E_{int}^{\mathcal{GH}}+\left(\displaystyle\frac{E_{int}^{\mathcal{GH}}}{\displaystyle\sum_{\mathcal{J\neq G}}E_{int}^{\mathcal{JG}}}\right)E_{def}^{\mathcal{J}} +\left(\displaystyle\frac{E_{int}^{\mathcal{GH}}}{\displaystyle\sum_{\mathcal{J\neq H}}E_{int}^{\mathcal{JH}}}\right)E_{def}^{\mathcal{H}}\right)
+
+\Delta E=\displaystyle\sum_{\mathcal{G}}\displaystyle\sum_{\mathcal{G>H}}E_{int}^{\mathcal{GH'}}
+
+\Delta E=\displaystyle\sum_{\mathcal{G}}\displaystyle\sum_{\mathcal{G>H}}\left(E_{int}^{\mathcal{GH}}+\displaystyle\frac{E_{def}^{\mathcal{G}}+E_{def}^{\mathcal{H}}}{N-1}\right)=E_{int}^{\mathcal{GH''}}
+
+V_{ee}^{AB}=V_{J}^{AB}+V_{xc}^{AB}=V_{J}^{AB}+V_{X}^{AB}+V_{corr}^{AB}
+
+V_{\sigma}^{AB}=\displaystyle\int_{A}\displaystyle\int_{B}\displaystyle\frac{\rho_{2}^{\sigma}(r_{1},r_{2})}{r_{12}}dr_{1}dr_{2}
+
+E_{ele}^{\mathcal{GH}}=\displaystyle\int_{\infty}\displaystyle\int_{\infty}\frac{\rho_{T}^{\mathcal{G}}(r_{1})\rho_{T}^{\mathcal{H}}(r_{2})}{r_{12}}dr_{1}dr_{2}
+

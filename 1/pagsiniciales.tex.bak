@@ -1,0 +1,126 @@
+\thispagestyle{empty}
+
+\vspace{2cm}
+\vspace{1cm}
+
+\begin{tabular}{ll}
+Tutora (Sorbonne University) & Dra. Julia Contreras-García\\
+Cotutora (Autonomous University of Madrid) & Dra. M. Merced Montero-Campillo\\
+ & \\
+Jury Members & \\
+Chair & Ismanuel Rabadán\\
+Secretary & Cristina Sanz \\
+ & Paula Pla \\
+ & Sandra Rodríguez \\
+ & Felipe Zapata 
+\end{tabular}
+
+\vspace{4cm}
+
+
+\begin{multicols}{2}
+
+\begin{center}
+--------------------------------------------------\\
+Dra. Julia Contreras-García \\
+Director\\
+\end{center}
+
+\begin{center}
+---------------------------------------------------\\
+Dra. M. Merced Montero-Campillo\\
+Codirector\\
+\end{center}
+
+\end{multicols}
+
+\vspace{2cm}
+
+\begin{center}
+---------------------------------------------------\\
+%Victor Manuel Castor Villegas\\
+Victoria Castor Villegas\\
+Student\\
+\end{center}
+
+\vspace{2cm}
+
+\noindent
+This work was done at LCT at Sorbonne University Campus Pierre et Marie Curie.
+Paris, Île de France, République française.
+
+\newpage
+\thispagestyle{empty}
+
+{\chancery
+
+\textbf{\Huge{Acknowledgements}}
+
+\vspace{1.5cm}
+
+Mis más sinceros agradecimientos a todas aquellas personas que de una u otra
+forma han hecho que haya llegado al punto en donde me encuentro hoy.
+
+A la Unión Europea, a través del programa Erasmus Mundus+ que me ha provisto de
+lo necesario para realizar mis estudios de máster. Estudios realizados en las
+universidades: $i$) Universidad Autónoma de Madrid, $ii$) Université Toulouse
+III Paul Sabatier y $iii$) Sorbonne Université Campus Pierre et Marie Curie.
+TFM escrito principalmente en ésta última, bajo la supervisión de dos
+excelentes asesoras, Julia Contreras-García y Merche Montero-Campillo.
+
+A través de mis 24 años de edad he tenido el apoyo de mi núcleo familiar, con
+los que me he formado como persona y siendo un pilar importante para llegar a
+ser quien soy. Libia Villegas Morales (madre), Victor Castor Arenas (padre) y
+Ana Karen Castor Villegas (hermAna).
+
+Expreso mi gratitud a las amistades que he logrado tener a través del tiempo.
+Jenifer Wences,
+por tu larga amistad. 
+Pau LC,
+gracias por ser parte del Manateam \img{1/emojis/Twemoji_1f995}.
+%gracias por ser parte del Manateam, Prolina 🦕.
+%gracias por ser parte del Manateam, Prolina \emoij{sauropod}.
+Andrea FL, 
+hail Ciencias.
+Angy,
+por ser de las mejores entrenadoras Pokémon.
+
+Durante el tiempo vivido en Madrid tuve la grandiosa oportunidad de estar con
+los mejores compañeros de piso. Danny, Víctor, José, (\textit{Mauri et Ana as
+honorific members}). Pasar el tiempo con ustedes fue de las mejores cosas que
+me pudieron haber pasado en este Erasmus. Desde Filomena con nieve en la
+cocina, hasta los \SI{40}{\celsius} en pleno verano, pasando por cocinar
+%cocina, hasta estar a 40 $^{\circ}$ C en pleno verano, pasando por cocinar
+pancakes los findes.
+
+%\begin{CJK*}{UTF8}{bsmi}
+%\begin{CJK*}{UTF8}{bkai}
+%\begin{CJK*}{UTF8}{gbsn}
+\begin{CJK*}{UTF8}{gkai}
+非常感谢，高晗。 You smell like a biscuit.
+\end{CJK*} 
+
+Compañeros del programa TCCM. El tiempo en Aspet, París, Toulouse y
+en Madrid no hubiera sido nada parecido sin ustedes. Intentar esquiar, ir al
+Louvre, caminar por calles occitanas, las tarde noches de terraza... gracias.
+Sin olvidar a la camarada no inscrita en este máster, pero presente en
+casi todo grupo de invetigación científica,
+%\begin{otherlanguage*}{russian}
+\cyrins{\textit{Алекс\'{a}ндра Элбак\'{я}н}}.
+%\end{otherlanguage*}
+
+
+A mis compañeros de investigación: Trinidad, Julen, Bruno y Andrea. A pasar de hablar
+distintos dialectos el ``aquario hispanoparlante'' era la mejor oficina
+del LTC po'. 
+
+\begin{flushright}
+Si al final no me la he pasado tan mal.\\
+%Como olvidarme de los días en un bar de la Latina.\\
+-Ginebras.
+\end{flushright}
+
+}
+
+\vspace*{\fill}
+

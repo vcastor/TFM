@@ -1,0 +1,31 @@
+
+
+*******************************************************************************
+Fri May 13 16:42:03 2022
+
+
+FIT:    data read from 'xc_int.dat'
+        format = z
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**15 + b*x**14 + c*x**13 + d*x**12 + e*x**11 + f*x**10 + g*x**9 + h*x**8 + i*x**7 + j*x**6 + k*x**5 + l*x**4 + m*x**3 + n*x**2 + o*x + p
+fitted parameters initialized with current variable values
+
+BREAK: Number of data points smaller than number of parameters
+
+*******************************************************************************
+Fri May 13 16:45:46 2022
+
+
+FIT:    data read from 'xc_int.dat'
+        format = z
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = b*x**14 + c*x**13 + d*x**12 + e*x**11 + f*x**10 + g*x**9 + h*x**8 + i*x**7 + j*x**6 + k*x**5 + l*x**4 + m*x**3 + n*x**2 + o*x + p
+fitted parameters initialized with current variable values
+
+BREAK: Number of data points smaller than number of parameters

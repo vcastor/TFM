@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesis.aux
+The style file: unsrtnat.bst
+A level-1 auxiliary file: 1/pagsiniciales.aux
+A level-1 auxiliary file: 2/intro.aux
+A level-1 auxiliary file: 3/metodologia.aux
+A level-1 auxiliary file: 4/resultados.aux
+A level-1 auxiliary file: 5/conclusiones.aux
+A level-1 auxiliary file: 7/apendice.aux
+Database file #1: bibl/bibl.bib
+Warning--empty journal in promolden
+Warning--empty journal in topmod09
+You've used 103 entries,
+            2481 wiz_defined-function locations,
+            1411 strings with 27928 characters,
+and the built_in function-call counts, 42911 in all, are:
+= -- 3740
+> -- 2280
+< -- 71
++ -- 890
+- -- 682
+* -- 3703
+:= -- 7062
+add.period$ -- 465
+call.type$ -- 103
+change.case$ -- 182
+chr.to.int$ -- 101
+cite$ -- 105
+duplicate$ -- 1954
+empty$ -- 3709
+format.name$ -- 847
+if$ -- 8920
+int.to.chr$ -- 3
+int.to.str$ -- 104
+missing$ -- 122
+newline$ -- 677
+num.names$ -- 312
+pop$ -- 719
+preamble$ -- 1
+purify$ -- 103
+quote$ -- 0
+skip$ -- 1058
+stack$ -- 0
+substring$ -- 2111
+swap$ -- 271
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 643
+warning$ -- 2
+while$ -- 342
+width$ -- 0
+write$ -- 1628
+(There were 2 warnings)
