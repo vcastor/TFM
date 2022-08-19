@@ -1,7 +1,4 @@
-##############################################
-###
-###############################################
-
+#!/opt/homebrew/bin/python3#
 #from pylab import *
 #import pandas as pd
 import numpy as np
@@ -76,5 +73,5 @@ plt.legend((r'$E_{HF}=3\sqrt{\mathstrut{1+k}}$', r'$E=\frac{3}{2}\left[1+\sqrt{\
 ### Imprimir
 ###############################################
 
-plt.show()
-fig.savefig('HF_vs_excat.pdf')
+#plt.show()
+#fig.savefig('HF_vs_excat.pdf')

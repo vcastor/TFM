@@ -62,7 +62,7 @@ plt.legend((r'$(\Psi,\Psi_{HF})^2 = \frac{(\kappa +1)^{3/2}(2\kappa +1)^{3/4}}{[
 
 ### Imprimir
 #plt.show()
-fig.savefig('HF_vs_psi.pdf')
+#fig.savefig('HF_vs_psi.pdf')
 
 
 
