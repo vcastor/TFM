@@ -54,6 +54,6 @@ ax1.set_xlabel('Tipo de EH')
 ax1.set_ylabel(r'$E_{\mathrm{int}}^{ \, \prime} (\mathrm{kcalmol^{-1}}$)')
 
 
-plt.show()
-fig.savefig('New_vs_old_barraerror.pdf')
+#plt.show()
+#fig.savefig('New_vs_old_barraerror.pdf')
 

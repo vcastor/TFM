@@ -75,6 +75,6 @@ ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 ###############################################
 ### Imprimir
 
-plt.savefig('vs_dt_hfcicc_q_.pdf')
-plt.show()
+#plt.savefig('vs_dt_hfcicc_q_.pdf')
+#plt.show()
 
